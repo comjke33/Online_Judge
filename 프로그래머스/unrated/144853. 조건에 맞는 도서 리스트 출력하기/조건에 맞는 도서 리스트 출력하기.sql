@@ -1,0 +1,2 @@
+-- 코드를 입력하세요
+SELECT `BOOK_ID`, date_format(PUBLISHED_DATE, '%Y-%m-%d') from book where (`CATEGORY`='인문' and `PUBLISHED_DATE`>= '2021-01-01 00:00:00' and `PUBLISHED_DATE`< '2022-01-01 00:00:00') order by `PUBLISHED_DATE` asc;
