@@ -1,0 +1,2 @@
+-- 코드를 입력하세요
+SELECT DOCTOR.DR_NAME, DOCTOR.DR_ID, DOCTOR.MCDP_CD, date_format(DOCTOR.HIRE_YMD, '%Y-%m-%d') from DOCTOR where (DOCTOR.MCDP_CD = 'CS' or DOCTOR.MCDP_CD = 'GS') order by HIRE_YMD desc, DR_NAME asc
